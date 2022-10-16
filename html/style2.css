@@ -1,0 +1,60 @@
+*{
+  life-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  padding: 0px;
+  color: white;
+}
+
+
+body{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("배경.jpg");
+
+}
+
+button{
+font-size: 37px;
+padding: 20px 50px;
+border: 2px solid white;
+background-color:transparent;
+color: white;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: bold;
+position: relative;
+transition: all 0.4s;
+overflow: : hidden;
+}
+
+button:focus{
+  outline:none;
+}
+
+button::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+  z-index: -1;
+  border: 3px solid white;
+  transition: top,left,right,bottom, 100ms ease-in-out
+}
+
+button:hover::before {
+  top: calc(2px*-2);
+  right: calc(2px*-2);
+  left: calc(2px*-2);
+  bottom: calc(2px*-2);
+
+}
+
+button:hover{
+  color: yellow;
+}
