@@ -1,0 +1,16 @@
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+
+a {
+  color: powderblue;
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+}

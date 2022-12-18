@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="master.js"></script>
+  </head>
+  <body style="background-color: white; color: black;">
+    <h1><a href="index.html">THE BOYZ</a></h1>
+      <ol>
+        <li><a href="member.html">Member</a></li>
+        <li><a href="music.html">Music</a></li>
+      </ol>
+<input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+<br>
+    <script>
+    workname = ['상연', '제이콥', '영훈', '현재', '주연', '케빈', '뉴', '큐', '주학년', '선우', '에릭'];
+
+    birth = ['1996년 11월 4일(26세)', '1997년 5월 30일(25세)', '1997년 8월 8일(25세)', '1997년 9월 13일(25세)', '1998년 1월 15일(24세)', '1998년 2월 23일(24세)', '1998년 4월 26일(24세)', '1998년 11월 5일(24세)', '1999년 3월 9일(23세)', '2000년 4월 12일(22세)', '2000년 12월 22일(21세)'];
+
+
+    var i = 0;
+         while (i < 11 ) {
+           document.write('working name: ' + workname[i] + "<br>");
+           document.write('birth: ' + birth[i] + "<br>" );
+           document.write("<br><br><br>" );
+           i = i + 1;
+         }
+    </script>
+
+  </body>
+</html>
